@@ -72,14 +72,7 @@ python -m pytest
 ```
 14 unit tests cover the data loader, cosine similarity, and ranking. They use small fake data, so Ollama doesn't need to be running.
 
-## Roadmap
 
-- [x] Load and filter ATT&CK techniques
-- [x] Embedding-based search
-- [ ] Labeled test set and top-1 / top-5 accuracy measurement
-- [ ] Clean description text and measure the effect
-- [ ] LLM re-ranking of retrieved candidates (RAG), compared against retrieval alone
-- [ ] Simple web interface
 
 ## Data source
 
